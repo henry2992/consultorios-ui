@@ -6,6 +6,7 @@ body{
 	line-height: 1.5;
 	color: #263238;
 	background-color: #e4e5e6;
+	-webkit-font-smoothing: antialiased;
 }
 
 .app{
@@ -37,6 +38,7 @@ body{
 .app-body .sidebar{
 	flex: 0 0 200px;
 	order: -1;
+
 }
 
 .sidebar-fixed .sidebar {
@@ -50,6 +52,7 @@ body{
 	color: #fff;
 	background: #263238;
 	overflow: hidden;
+	display: none;
 }
 
 .sidebar-fixed .sidebar .sidebar-nav{
@@ -94,10 +97,7 @@ list-style: none;
 }
 
 
-
-
-
-/* CUSTOM */
+ /*CUSTOM */
 .app-navbar .navbar-brand img {
 	background-color: #24B7DB;
 	border-radius: 50%;
@@ -112,36 +112,31 @@ list-style: none;
 
 
 
+/******************************************************************************/
+/******************************** Media Queries ******************************/
+/****************************************************************************/
 
 
+/* Smartphones  ----------- */
+@media only screen and (min-width : 321px) {
+/* Styles */
+}
 
 
+/* Medium size screens  ----------- */
+@media only screen and (min-width : 992px)  {
+		.sidebar{
+		display: block;
+	}
+}
 
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
 
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+/* Styles */
+}
 
